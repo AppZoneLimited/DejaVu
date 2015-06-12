@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/zone_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="left"
+        android:text="Select Expiring Date"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@id/data_picker_text"
+        android:text="@string/data_picker_text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="left"
+        android:text="Card Number"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:id="@id/card_number"
+        android:gravity="center"
+        android:hint="@string/card_number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="left"
+        android:text="CVV"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:maxLength="3"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:id="@id/cvv"
+        android:gravity="center"
+        android:hint="@string/cvv"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="left"
+        android:text="Pin"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:id="@id/pin"
+        android:gravity="center"
+        android:hint="@string/pin"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/verify"/>
+
+</LinearLayout>

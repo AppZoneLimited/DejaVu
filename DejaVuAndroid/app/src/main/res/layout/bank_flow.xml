@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zone_blue"
+    android:gravity="center"
+    tools:context="dejavu.appzonegroup.com.dejavuandroid.Fragment.PhoneRegistration">
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        android:textColor="@android:color/white"
+        android:text="@string/choice"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:id="@+id/soft_choice_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@id/soft_choice"
+            android:textColor="@color/zone_orange"
+            android:background="@android:color/transparent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/soft_string" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/hard_choice_card"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/soft_choice_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@id/hard_choice"
+            android:textColor="@color/zone_orange"
+            android:background="@android:color/transparent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hard_string" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/debit_choice_card"
+        android:layout_below="@id/hard_choice_card"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@id/debit_choice"
+            android:textColor="@color/zone_orange"
+            android:background="@android:color/transparent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/card_string" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

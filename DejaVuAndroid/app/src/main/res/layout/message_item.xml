@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.pkmmte.view.CircularImageView
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_avater"
+        app:border_width="4dp"
+        app:shadow="true"
+        android:layout_width="50sp"
+        android:layout_height="50sp" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:text="ZONE"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:gravity="top"
+                android:layout_gravity="end"
+                android:text="10-Mar-2015   10:00Am"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:maxLines="3"
+            android:layout_gravity="end"
+            android:text="This is a demo message from Zone. Ignore this message "
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

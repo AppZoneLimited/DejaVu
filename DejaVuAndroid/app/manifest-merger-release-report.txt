@@ -1,0 +1,252 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+permission#dejavu.appzonegroup.com.dejavuandroid.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:19:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:21:9
+	android:name
+		ADDED from AndroidManifest.xml:20:9
+uses-permission#dejavu.appzonegroup.com.dejavuandroid.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+application
+ADDED from AndroidManifest.xml:24:5
+MERGED from com.github.traex.rippleeffect:library:1.2.4:12:5
+MERGED from com.twotoasters.SectionCursorAdapter:library:1.0.1:4:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:cardview-v7:21.0.3:16:5
+MERGED from com.pkmmte.view:circularimageview:1.1:11:5
+MERGED from com.github.navasmdc:MaterialDesign:1.4:11:5
+MERGED from com.android.support:recyclerview-v7:21.0.0:17:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from DejaVuAndroid:library:unspecified:9:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:28:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:26:9
+	android:icon
+		ADDED from AndroidManifest.xml:27:9
+	android:theme
+		ADDED from AndroidManifest.xml:25:9
+activity#dejavu.appzonegroup.com.dejavuandroid.ShellFramework.SplashScreen
+ADDED from AndroidManifest.xml:29:9
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:27
+activity#dejavu.appzonegroup.com.dejavuandroid.Activities.MainActivity
+ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:40:19
+activity#dejavu.appzonegroup.com.dejavuandroid.ShellFramework.ProfileDetailsFlow
+ADDED from AndroidManifest.xml:41:9
+	android:label
+		ADDED from AndroidManifest.xml:43:13
+	android:name
+		ADDED from AndroidManifest.xml:42:13
+activity#dejavu.appzonegroup.com.dejavuandroid.ShellFramework.Authetication.PasswordAuth
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:47:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:46:13
+activity#dejavu.appzonegroup.com.dejavuandroid.Activities.ListFunctionActivity
+ADDED from AndroidManifest.xml:49:9
+	android:name
+		ADDED from AndroidManifest.xml:49:19
+receiver#dejavu.appzonegroup.com.dejavuandroid.ShellFramework.BroadcastReceiver.PinReceiver
+ADDED from AndroidManifest.xml:52:9
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:53:13
+	android:priority
+		ADDED from AndroidManifest.xml:53:28
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:54:17
+	android:name
+		ADDED from AndroidManifest.xml:54:25
+service#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Service.FlowSyncService
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:58:18
+service#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Service.LocalEntityService
+ADDED from AndroidManifest.xml:59:9
+	android:name
+		ADDED from AndroidManifest.xml:59:18
+service#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Service.ContactSyncService
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:60:18
+receiver#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Receiver.MyStartServiceReceiver
+ADDED from AndroidManifest.xml:62:9
+	android:name
+		ADDED from AndroidManifest.xml:62:19
+receiver#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Receiver.MyScheduleReceiver
+ADDED from AndroidManifest.xml:63:9
+	android:name
+		ADDED from AndroidManifest.xml:63:19
+intent-filter#andriod.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:65:13
+action#andriod.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:66:17
+	android:name
+		ADDED from AndroidManifest.xml:66:25
+receiver#dejavu.appzonegroup.com.dejavuandroid.DataSynchronization.Receiver.NetworkChangeReceiver
+ADDED from AndroidManifest.xml:70:9
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+intent-filter#andriod.net.conn.CONNECTION_CHANGE+andriod.net.wifi.WIFI_STATE_CHANGED
+ADDED from AndroidManifest.xml:72:13
+action#andriod.net.conn.CONNECTION_CHANGE
+ADDED from AndroidManifest.xml:73:17
+	android:name
+		ADDED from AndroidManifest.xml:73:25
+action#andriod.net.wifi.WIFI_STATE_CHANGED
+ADDED from AndroidManifest.xml:74:17
+	android:name
+		ADDED from AndroidManifest.xml:74:25
+receiver#dejavu.appzonegroup.com.dejavuandroid.PushNotification.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:78:9
+	android:permission
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+dejavu.appzonegroup.com.dejavuandroid
+ADDED from AndroidManifest.xml:81:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:82:17
+	android:name
+		ADDED from AndroidManifest.xml:82:25
+category#dejavu.appzonegroup.com.dejavuandroid
+ADDED from AndroidManifest.xml:83:17
+	android:name
+		ADDED from AndroidManifest.xml:83:27
+service#dejavu.appzonegroup.com.dejavuandroid.PushNotification.GcmIntentService
+ADDED from AndroidManifest.xml:87:9
+	android:name
+		ADDED from AndroidManifest.xml:87:18
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from se.emilsjolander:StickyScrollViewItems:1.0.0:7:5
+MERGED from com.fmsirvent:parallaxeverywhere:1.0.4:5:5
+MERGED from com.github.traex.rippleeffect:library:1.2.4:8:5
+MERGED from se.emilsjolander:stickylistheaders:2.1.5:3:5
+MERGED from com.twotoasters.SectionCursorAdapter:library:1.0.1:2:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:cardview-v7:21.0.3:15:5
+MERGED from com.pkmmte.view:circularimageview:1.1:7:5
+MERGED from com.github.navasmdc:MaterialDesign:1.4:7:5
+MERGED from com.github.ksoichiro:android-observablescrollview:1.5.0:21:5
+MERGED from com.android.support:recyclerview-v7:21.0.0:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from DejaVuAndroid:library:unspecified:5:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from DejaVuAndroid:libraryflip:unspecified:7:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+meta-data#com.google.android.gms.version
+ADDED from com.google.android.gms:play-services:6.5.87:21:9
+	android:value
+		ADDED from com.google.android.gms:play-services:6.5.87:23:13
+	android:name
+		ADDED from com.google.android.gms:play-services:6.5.87:22:13
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:21.0.0:18:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:21.0.0:18:19
+	android:name
+		ADDED from com.android.support:recyclerview-v7:21.0.0:18:60

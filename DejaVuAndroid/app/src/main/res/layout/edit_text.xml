@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dejavu.appzonegroup.com.dejavuandroid.UIControls.DJV_TextField xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/custom_line_border"
+    android:textColor="#000"
+    android:gravity="center"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content" />

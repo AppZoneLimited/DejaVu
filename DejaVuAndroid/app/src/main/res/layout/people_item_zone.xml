@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        ripple:rv_color="#021231"
+        ripple:rv_centered="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/contactImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_avater"
+                app:border_width="4dp"
+                app:shadow="true" />
+
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:maxLines="3"
+                android:layout_gravity="end"
+                android:text="This is a demo message from Zone. Ignore this message "
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+    </com.andexert.library.RippleView>
+</LinearLayout>

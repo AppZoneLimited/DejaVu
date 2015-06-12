@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:background="@color/zone_blue"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textColor="#fff"
+                android:gravity="left"
+                android:text="Select Date of Birth"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@id/data_picker_text"
+                android:text="@string/data_picker_text"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#fff"
+                android:gravity="left"
+                android:text="Gender"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/gender_spinner"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:textColor="#fff"
+                android:gravity="left"
+                android:text="Email"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:gravity="center"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:textColor="#000"
+                android:inputType="textEmailAddress"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@id/email_field"
+                android:hint="@string/email_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#fff"
+                android:gravity="left"
+                android:text="Name"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:gravity="center"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:textColor="#000"
+                android:inputType="textPersonName"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@id/name_field"
+                android:hint="@string/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#fff"
+                android:gravity="left"
+                android:text="Other Names"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:textColor="#000"
+                android:inputType="textPersonName"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:hint="@string/other_names"
+                android:id="@id/other_names_fiel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/verify" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

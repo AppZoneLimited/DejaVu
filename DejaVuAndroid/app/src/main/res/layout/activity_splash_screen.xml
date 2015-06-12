@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/splash_screen_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slapsh_screen_bg"
+    tools:context="dejavu.appzonegroup.com.dejavuandroid.ShellFramework.SplashScreen">
+
+    <ImageView
+        android:src="@drawable/appzone"
+        android:id="@id/splash_screen_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

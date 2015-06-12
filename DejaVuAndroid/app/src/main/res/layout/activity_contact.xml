@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="#ddd"
+    android:layout_width="match_parent"
+    tools:context="dejavu.appzonegroup.com.dejavuandroid.Activities.ContactActivity">
+
+    <dejavu.appzonegroup.com.dejavuandroid.CustomViews.MyScroll
+        android:layout_weight="1"
+        android:id="@+id/notifyScroll"
+        android:fillViewport="true"
+        android:background="#ddd"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/function_image"
+                android:scaleType="center"
+                android:background="@drawable/ic_avater"
+                android:layout_width="match_parent"
+                android:layout_height="200sp" />
+
+            <LinearLayout
+                android:tag="sticky"
+                android:id="@+id/toolbarLayout"
+                android:layout_below="@+id/function_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ListView
+                android:layout_below="@+id/toolbarLayout"
+                android:orientation="vertical"
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </RelativeLayout>
+    </dejavu.appzonegroup.com.dejavuandroid.CustomViews.MyScroll>
+</LinearLayout>

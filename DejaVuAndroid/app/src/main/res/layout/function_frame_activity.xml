@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="true"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:background="#ddd"
+        android:layout_width="match_parent">
+
+        <dejavu.appzonegroup.com.dejavuandroid.CustomViews.MyScroll
+            android:layout_weight="1"
+            android:id="@+id/notifyScroll"
+            android:fillViewport="true"
+            android:background="#ddd"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/function_image"
+                    android:scaleType="center"
+                    android:background="@drawable/d11"
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp" />
+
+                <LinearLayout
+                    android:tag="sticky"
+                    android:id="@+id/toolbarLayout"
+                    android:layout_below="@+id/function_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_below="@+id/toolbarLayout"
+                    android:orientation="vertical"
+                    android:id="@id/content_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+            </RelativeLayout>
+        </dejavu.appzonegroup.com.dejavuandroid.CustomViews.MyScroll>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:id="@+id/bottom_layout"
+            android:background="#fff"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

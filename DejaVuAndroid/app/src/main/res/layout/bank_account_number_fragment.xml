@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/zone_blue"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="23dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="@string/account_number_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textColor="#000"
+        android:maxLength="14"
+        android:padding="12dp"
+        android:background="#fff"
+        android:id="@id/account_number_field"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:hint="@string/account_number_hint"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/verify"/>
+
+</LinearLayout>

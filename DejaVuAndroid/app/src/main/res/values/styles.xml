@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#3276b1</item>
+        <item name="colorPrimaryDark">#3276b1</item>
+        <item name="colorAccent">#3276b1</item>
+    </style>
+
+    <style name="ToolbarCustomIconColor" parent="AppTheme">
+        <!-- android:textColorSecondary is used for coloring the navigation drawer icon and up arrow. -->
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+
+
+    <style name="DJV_TextField_Style" parent="@android:style/Widget.EditText">
+        <item name="android:background">#fff</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="DJV_Label_Style" parent="android:Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="DJV_TextArea_Style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/custom_line_border</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:minLines">4</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="DJV_CheckBox_Style" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:button">@drawable/btn_background</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="DJV_Button_Style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

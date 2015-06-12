@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <array name="menu">
+        <item>Airtime</item>
+        <item>Transfer Funds</item>
+        <item>Card and Cheque</item>
+        <item>Lifestyle and Travel</item>
+        <item>Notification</item>
+        <item>My Profile</item>
+        <item>Bill Payments</item>
+    </array>
+
+
+
+</resources>

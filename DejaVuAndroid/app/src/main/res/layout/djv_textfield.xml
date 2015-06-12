@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/root"
+        android:background="@drawable/view_border_selector">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:id="@+id/label"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textAllCaps="true"
+            android:textColor="#666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp"
+            android:textColorHint="#ccc"
+            android:id="@+id/text"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </EditText>
+    </LinearLayout>
+</merge>

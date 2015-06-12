@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="splash_screen_image" type="id"/>
+    <item name="splash_screen_frame" type="id"/>
+    <item name="phone_number_edit_view" type="id"/>
+    <item name="verify_button" type="id"/>
+    <item name="token_field" type="id"/>
+    <item name="token_label" type="id"/>
+    <item name="cvv" type="id"/>
+    <item name="data_picker_text" type="id"/>
+    <item name="pin" type="id"/>
+    <item name="card_number" type="id"/>
+    <item name="soft_choice" type="id"/>
+    <item name="hard_choice" type="id"/>
+    <item name="debit_choice" type="id"/>
+    <item name="email_field" type="id"/>
+    <item name="password_field" type="id"/>
+    <item name="pin_field" type="id"/>
+    <item name="verify_password_field" type="id"/>
+    <item name="verify_pin_field" type="id"/>
+    <item name="name_field" type="id"/>
+    <item name="other_names_fiel" type="id"/>
+    <item name="gender_spinner" type="id"/>
+    <item name="account_number_field" type="id"/>
+    <item name="info_list" type="id"/>
+    <item name="list_item_subject" type="id"/>
+    <item name="list_item_message" type="id"/>
+    <item name="content_frame" type="id"/>
+    <item name="main_function_grid" type="id"/>
+    <item name="function_item" type="id"/>
+    <item name="root_linear_vertical" type="id"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="slapsh_screen_bg">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray">#ddd</color>
+    <color name="dark_gray">#666</color>
+    <color name="zone_orange">#FF8C00</color>
+    <color name="zone_blue">#021231</color>
+    <color name="light_blue">#3276b1</color>
+
+    
+</resources>
